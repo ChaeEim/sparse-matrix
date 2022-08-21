@@ -16,7 +16,7 @@ typedef struct SparseMatrix {
 } SparseMatrix; //SparseMatrix creation
 //add to SPARSEMATRIX
 SparseMatrix sparse_matrix_add2(SparseMatrix a, SparseMatrix b) {
-    SparseMatrix c; //struct name
+    SparseMatrix c; //struct
     int ca=0, cb=0, cc=0;
     if (a.rows != b.rows || a.rows != b.cols) {
         printf("Error\n");
